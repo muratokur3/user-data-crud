@@ -1,0 +1,184 @@
+{
+  "data":[
+    {
+      "id": 1,
+      "ad": "John",
+      "soyad": "Doe",
+      "yas": 30,
+      "cinsiyet": "Erkek",
+      "email": "john@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 2,
+      "ad": "Alice",
+      "soyad": "Smith",
+      "yas": 25,
+      "cinsiyet": "Kadın",
+      "email": "alice@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 3,
+      "ad": "David",
+      "soyad": "Johnson",
+      "yas": 40,
+      "cinsiyet": "Erkek",
+      "email": "david@example.com",
+      "isDeleted": true
+    },
+    {
+      "id": 4,
+      "ad": "Emily",
+      "soyad": "Brown",
+      "yas": 28,
+      "cinsiyet": "Kadın",
+      "email": "emily@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 5,
+      "ad": "Michael",
+      "soyad": "Wilson",
+      "yas": 35,
+      "cinsiyet": "Erkek",
+      "email": "michael@example.com",
+      "isDeleted": true
+    },
+    {
+      "id": 6,
+      "ad": "Olivia",
+      "soyad": "Lee",
+      "yas": 29,
+      "cinsiyet": "Kadın",
+      "email": "olivia@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 7,
+      "ad": "Daniel",
+      "soyad": "Anderson",
+      "yas": 45,
+      "cinsiyet": "Erkek",
+      "email": "daniel@example.com",
+      "isDeleted": true
+    },
+    {
+      "id": 8,
+      "ad": "Sophia",
+      "soyad": "Davis",
+      "yas": 26,
+      "cinsiyet": "Kadın",
+      "email": "sophia@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 9,
+      "ad": "William",
+      "soyad": "Taylor",
+      "yas": 33,
+      "cinsiyet": "Erkek",
+      "email": "william@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 10,
+      "ad": "Mia",
+      "soyad": "Johnson",
+      "yas": 31,
+      "cinsiyet": "Kadın",
+      "email": "mia@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 11,
+      "ad": "Liam",
+      "soyad": "Wilson",
+      "yas": 36,
+      "cinsiyet": "Erkek",
+      "email": "liam@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 12,
+      "ad": "Ava",
+      "soyad": "Harris",
+      "yas": 27,
+      "cinsiyet": "Kadın",
+      "email": "ava@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 13,
+      "ad": "Ethan",
+      "soyad": "Clark",
+      "yas": 42,
+      "cinsiyet": "Erkek",
+      "email": "ethan@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 14,
+      "ad": "Isabella",
+      "soyad": "Moore",
+      "yas": 24,
+      "cinsiyet": "Kadın",
+      "email": "isabella@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 15,
+      "ad": "James",
+      "soyad": "Lewis",
+      "yas": 37,
+      "cinsiyet": "Erkek",
+      "email": "james@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 16,
+      "ad": "Charlotte",
+      "soyad": "Walker",
+      "yas": 32,
+      "cinsiyet": "Kadın",
+      "email": "charlotte@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 17,
+      "ad": "Benjamin",
+      "soyad": "Green",
+      "yas": 38,
+      "cinsiyet": "Erkek",
+      "email": "benjamin@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 18,
+      "ad": "Emma",
+      "soyad": "Turner",
+      "yas": 23,
+      "cinsiyet": "Kadın",
+      "email": "emma@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 19,
+      "ad": "Henry",
+      "soyad": "Parker",
+      "yas": 41,
+      "cinsiyet": "Erkek",
+      "email": "henry@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": 20,
+      "ad": "Lily",
+      "soyad": "Baker",
+      "yas": 28,
+      "cinsiyet": "Kadın",
+      "email": "lily@example.com",
+      "isDeleted": false
+    }
+  ]
+}

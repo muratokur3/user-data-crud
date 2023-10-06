@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useEffect, useState } from 'react';
+import Navi from './components/Navi'
+import UsersList from './components/UsersList'
+import './style/app.scss'
+import AddUser from './components/AddUser';
 function App() {
+  const [users,setUsers]=useState([]);
+
+  const getData=async()=>{
+    const response=await fetch("http://localhost:5005/data");
+    const result= await response.json();
+    setUsers(result);
+  }
+
+  useEffect(()=>{
+    getData();
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='app-container'>
+     <Navi baslik="Navigate"/>
+     <AddUser users={users} setUsers={setUsers}/>
+     <UsersList users={users.filter(user=>!user.isDeleted)}/>
+     <Navi baslik="Footer"/>
     </div>
   );
 }
